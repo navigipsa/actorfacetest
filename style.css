@@ -1,0 +1,466 @@
+body {
+    font-family: 'Cute Font', cursive;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #35465d;
+}
+h3 {
+    color: #15824b;
+}
+.file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.file-upload-btn:hover {
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.file-upload-btn:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+#loading {
+    display: none;
+}
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+.image-upload-wrap {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #35465d;
+    background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #35465d82;
+    border: 1.5px dashed #ffffff;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+.drag-text {
+    text-align: center;
+}
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824b;
+    padding: 60px 0;
+}
+.file-upload-image {
+    max-height: 60%;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.text-center {
+    font-size: 1.5rem;
+}
+.try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
+}
+
+.try-again-text {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
+}
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-light .navbar-brand {
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+    font-size: 1.5rem;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+.section {
+    margin-top: 50px;
+}
+.section h2 {
+    color: #f73737;
+}
+.section-gender {
+    font-size: 1.5rem;
+}
+.title {
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+}
+
+.subtitle {
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.youtube-link {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-link:hover {
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-icon {
+    width: 30px;
+    height: 27.262px;
+}
+
+.favicon {
+    font-size: 1.2rem;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.upload {
+    width: 20%;
+}
+
+.upload-text {
+    width: 58%;
+    font-size: 1.5rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: initial;
+    color: initial;
+    font-size: 1.2rem;
+}
+
+.bar-container {
+    height: 2.7rem;
+}
+
+.고수-box,
+.이영애-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(49, 132, 155, 0.2);
+}
+.고수-bar,
+.이영애-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(49, 132, 155, 1);
+}
+.송승헌-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(195, 140, 102, 0.2);
+}
+.송승헌-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(195, 140, 102, 1);
+}
+.원빈-box,
+.송혜교-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
+}
+.원빈-bar,
+.송혜교-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+}
+.정우성-box,
+.손예진-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+}
+.정우성-bar,
+.손예진-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+}
+.현빈-box,
+.김태희-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
+}
+.현빈-bar,
+.김태희-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
+}
+.수지-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
+}
+.수지-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
+}
+
+.percent-text {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.actor-label {
+    font-size: 1.5rem;
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.result-message {
+    font-size: 2.5rem;
+}
+
+.actor-explain {
+    font-size: 2rem;
+}
+
+.고수-actor-title,
+.이영애-actor-title {
+    color: #31849b;
+}
+.송승헌-actor-title {
+    color: #9b6b43;
+}
+.원빈-actor-title,
+.송혜교-actor-title {
+    color: #548dd4;
+}
+.정우성-actor-title,
+.손예진-actor-title {
+    color: #3ba363;
+}
+.현빈-actor-title,
+.김태희-actor-title {
+    color: #ff6c0a;
+}
+.수지-actor-title {
+    color: #e56995;
+}
+
+/* gender */
+input#gender {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 90px;
+    height: 41px;
+    box-shadow: 0 0 0 8px #e5e9ea inset;
+    border-radius: 30px;
+    position: relative;
+}
+
+.knob {
+    position: absolute;
+    width: 41px;
+    top: 0;
+    left: 0;
+    height: 41px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #f470a7 inset;
+    background-color: #fbd4e6;
+    transition: 0.3s;
+}
+
+.knob > i {
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    top: 100%;
+    background-color: #f470a7;
+    left: calc(50% - 2px);
+}
+
+.knob > i:before,
+.knob > i:after {
+    width: 6px;
+    position: absolute;
+    top: 42%;
+    content: '';
+    height: 4px;
+    background-color: #f470a7;
+}
+
+.knob > i:before {
+    left: 4px;
+}
+.knob > i:after {
+    left: -6px;
+}
+
+input:checked + label > .knob {
+    box-shadow: 0 0 0 8px #a1c6dd inset;
+    background-color: #e2ecf4;
+    transform: translateX(49px) rotate(-140deg);
+}
+
+input:checked + label > .knob > i {
+    background-color: #a1c6dd;
+}
+
+input:checked + label > .knob > i:after,
+input:checked + label > .knob > i:before {
+    background-color: #a1c6dd;
+}
+
+input:checked + label > .knob > i:after {
+    top: 14.5px;
+    width: 12px;
+    left: -7px;
+    transform: rotate(45deg);
+}
+input:checked + label > .knob > i:before {
+    top: 13px;
+    width: 12px;
+    left: 0px;
+    transform: rotate(134deg);
+}
